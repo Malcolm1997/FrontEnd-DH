@@ -1,0 +1,33 @@
+
+
+
+div{
+    display: inline-flex;    
+}
+
+.intervaloDeFecha{
+    font-weight: bold;
+}
+
+h1 , h2{
+    color: #005677;
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    padding: 14px 0 16px 0px;
+}
+
+h2{
+    padding: 6px 0 7px 12.45px;
+}
+
+b{
+    font-style: italic;
+}
+
+.listaSinEstilo{
+    list-style: none;
+}

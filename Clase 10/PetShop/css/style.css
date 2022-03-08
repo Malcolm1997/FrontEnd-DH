@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerTop{
+    background-color: #222222;
+    color: #F3F3F3;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0.1% 10% ;
+}
+
+.headerTopRight{
+    display:flex;
+    flex-direction: row;
+}
+
+.headerTopRight p{
+    margin: 0 15%;
+}
+
+.headerBotton{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.5% 3%;
+}
+
+.mainMenu{
+    display:flex;
+}
+
+.mainMenu{
+    list-style: none;
+}
+
+.itemMainMenu{
+    margin: 10px;
+}
+
+.itemLinkMainMenu{
+    text-decoration: none;
+    color: #F3F3F3;
+}
