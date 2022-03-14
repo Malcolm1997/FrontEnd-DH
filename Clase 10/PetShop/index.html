@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -38,15 +41,15 @@
         <section class="mainTop">
             <div>
                 <h2>¡Es un placer tenerte aqui!</h2>
-                <p>¡Comederos en descuento!</p>
-                <button>COMEDEROS</button>
+                <p class="textComederos">¡Comederos en descuento!</p>
+                <a href="#" class="linkComederos">COMEDEROS</a>
             </div>
         </section>
-        <section>
-            <img src="./img/PataDestacado.png" alt="Pata de Destacados">
+        <section class="auxMenu">
+            <img src="./img/PataDestacado.png" alt="Pata de Destacados" class="pataImg">
             <h1>Productos Destacados</h1>
-            <nav>
-                <ul>
+            <nav class="navCategory">
+                <ul class="menuCategory">
                     <li><a href="#">Comederos</a></li>
                     <li>-</li>
                     <li><a href="#">Accesorios</a></li>
@@ -54,35 +57,38 @@
                     <li><a href="#">Comida</a></li>
                 </ul>
             </nav>
-            <div>
-                <section>
+            <div class="products">
+                <section class="cardProduct">
                     <img src="./img/JuegueteChurrasquito.png" alt="Juguete Churrasquito">
                     <h5>Juguete Churrasquito</h5>
                     <p>$150</p>
                 </section>
 
-                <section>
+                <section class="cardProduct">
                     <img src="./img/ComederoPerro.png" alt="Comedero para Perro">
                     <h5>Comedero para perro</h5>
                     <p>$250</p>
                 </section>
 
-                <section>
+                <section class="cardProduct">
                     <img src="./img/JugueteHuesito.png" alt="Juguete Huesito">
                     <h5>Juguete Huesito</h5>
                     <p>$650</p>
                 </section>
             </div>
         </section>
-        <section>
+        <section class="formContacto">
             <h3>Contáctanos</h3>
-            <form action="">
-                <input type="text" name="nombre" id="" placeholder="Nombre y Apellido">
-                <input type="email" name="email" id="" placeholder="Ingresá tu correo electrónico">
-                <input type="tel" name="telefono" id="" placeholder="Teléfono">
+            <form action="" class="formulario">
+                <input class="inputForm" type="text" name="nombre" id="" placeholder="Nombre y Apellido">
+                <input class="inputForm" type="email" name="email" id="" placeholder="Ingresá tu correo electrónico">
+                <input class="inputForm" type="tel" name="telefono" id="" placeholder="Teléfono">
 
-                <button type="reset">Resetear</button>
-                <button type="submit">Enviar</button>
+                <div class="botons">
+                    <button class="btnReset" type="reset">Resetear</button>
+                    <button class="btnSend" type="submit">Enviar</button>
+                </div>
+
             </form>
         </section>
     </main>
