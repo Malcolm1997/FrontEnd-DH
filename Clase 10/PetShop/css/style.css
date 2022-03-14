@@ -32,9 +32,6 @@
 
 .mainMenu{
     display:flex;
-}
-
-.mainMenu{
     list-style: none;
 }
 
@@ -45,4 +42,10 @@
 .itemLinkMainMenu{
     text-decoration: none;
     color: #F3F3F3;
+}
+
+.presentacion{
+    background-image: url('../img/fondoPrincipal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
