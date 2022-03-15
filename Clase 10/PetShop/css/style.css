@@ -170,6 +170,7 @@ h3{
     border-radius: 25px;
     color:white;
     width: 50%;
+    font-size: 1rem;
 }
 
 .inputForm::placeholder{
@@ -198,4 +199,88 @@ h3{
     margin: 5%;
     border-radius: 20px;
     font-size: 1.25em;
+}
+
+.footerTop{
+    background-color:#F0A83E;
+    display:flex;
+    justify-content:space-between;
+    padding: 1% 2%;
+}
+
+.subInfoSection{
+    display:flex;
+    width:50%
+}
+
+.subInfoSection img{
+    margin-right: 1.5%;
+}
+
+.subInfoSection h3{
+    color: white;
+    margin-top: .5%;
+}
+
+.subSection{
+    display: flex;
+    margin: auto 3%;
+    width: 30%;
+}
+
+.subSection input{
+    border-radius: 20px;
+    margin-right: 5%;
+    padding: 2.5% 2.5%;
+    width: 200%;
+}
+
+.subSection a{
+    border-radius: 20px;
+    background-color:#3C2313;
+    color: white;
+    padding: 2.5% 2.5%;
+    text-decoration: none;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    background-color:#3C2313;
+}
+
+.secctionFooterLeft{
+    display: flex;
+    flex-direction:column;
+    align-items: space-between;
+    padding: 2.5%;
+    width: 50%;
+}
+
+.info{
+    display:flex;
+    padding: 2.5% 5%;
+}
+
+.datos{
+    margin-left:2.5%
+}
+
+.info h3{
+    color:white;
+}
+
+.info p{
+    color:#8A8787;
+}
+
+.containerImgFotter{
+    margin: auto 5%;
+}
+
+h5{
+    background-color:#222222;
+    color:white;
+    padding: .25%;
+    text-align: center;
 }
